@@ -3,10 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot Gadgets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+    <title>Hot Gadgets</title>
+    
 </head>
 <body>
-    
+    <div class="">
+       <div class="row">
+        <div class="col-sm-2">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <img src="images/logo.png" alt="">
+            </nav>
+        </div>
+        <div class="col-sm-10 d-flex justify-content-end ">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="product">Product</a>
+                    <a class="nav-item nav-link" href="about us">About Us</a>
+                    <a class="nav-item nav-link " href="contact us">Contact Us</a>
+                  </div>
+                </div>
+              </nav>
+        </div>
+       </div>
+    </div>
+
+    <div class="container carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <h1>Macbook Pro</h1>
+                        <p>This one of the best brand of gadgets.People can use it very easily and thats why it is very demanding all over the world.</p>
+                        <button class="buy-now-button">Buy Now >></button>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <h1>Bose Speaker</h1>
+                        <p>This is a bluetooth speaker where no wire is needed to play a music.It is leatest version of speakers</p>
+                        <button class="buy-now-button">Buy Now >></button>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <h1>JBL Speaker</h1>
+                        <p>This is a speaker from JBL. Its an international brand that makes audio accessories.</p>
+                        <button class="buy-now-button">Buy Now >></button>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div> 
+    </div>
+
+    <div class="container smartphone">
+        <h2>Smartphone</h2>
+        <div class="see-all d-flex justify-content-end">
+            See All
+        </div>
+
+        <div class="card-deck ">
+            <div class="card ">
+              <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+              <div class="card-body ">
+                <h4 class="card-title">iphone 11 Pro</h4>
+                <p class="card-text">This is the leatest smartphone of the brand called Apple.</p>
+                <h4>$999</h4>
+                <button class="buy-now-button">Buy Now >></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Sansung Galaxy Note 10+</h4>
+                <p class="card-text">This is a awesome brand for smartphones.This phone is the leatest version of their respective model's.</p>
+                <h4>$799</h4>
+                <button class="buy-now-button">Buy Now >></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Redmi Note 7</h4>
+                <p class="card-text">This is a budget phone where many features provided in a low budget mobile phone.Its a good option for the mass people.</p>
+                <h4>$699</h4>
+                <button class="buy-now-button">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="container laptop">
+        <h2>Laptop</h2>
+        <div class="see-all d-flex justify-content-end">
+            See All
+        </div>
+
+        <div class="card-deck ">
+            <div class="card ">
+              <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+              <div class="card-body ">
+                <h4 class="card-title">Asus VivoBook</h4>
+                <p class="card-text">This is the leatest smartphone of the brand called Apple.</p>
+                <h4>$999</h4>
+                <button class="buy-now-button">Buy Now >></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Razer Blade 15</h4>
+                <p class="card-text">This is a awesome brand for smartphones.This phone is the leatest version of their respective model's.</p>
+                <h4>$2799</h4>
+                <button class="buy-now-button">Buy Now >></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Xiaomi MI NoteBook Pro</h4>
+                <p class="card-text">This is a budget phone where many features provided in a low budget mobile phone.Its a good option for the mass people.</p>
+                <h4>$999</h4>
+                <button class="buy-now-button">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="container categories">
+        <h2>Categories</h2>
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <div  class="col-md-2">
+                    <img src="images/Categories/bag.png" alt="">
+                    <h4>Bags</h4>
+                </div>
+                <div class="col-md-4">
+                    <div class="row-md-2">
+                        <img src="images/Categories/perfume.png" alt="">
+                        <h4>Beauty</h4>
+                    </div>
+                    <div class="row-md-2">
+                        <img src="images/Categories/shoe.png" alt="">
+                        <h4>Shoes</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <img src="images/Categories/pale-order.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        Copyright © Arick Ahamed 2020, All Right Reserved.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
